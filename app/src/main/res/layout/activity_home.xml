@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="StudyStreak Logo"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StudyStreak"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stay focused. Keep learning."
+        android:textSize="16sp"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/subjectsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Subjects"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/tasksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Tasks"
+        android:textSize="17sp"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/timerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Study Timer"
+        android:textSize="17sp"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/remindersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Study and Task Reminders"
+        android:textSize="17sp"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
